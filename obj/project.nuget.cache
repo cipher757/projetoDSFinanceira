@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ab8imwhXWjbAJOUrULcfnF+uZCTvwiOYpGefv8IowyxSkeFnfRnl0Vhrn69KMH3v8WWazs5pKwbCUjgmJRYiOg==",
+  "success": true,
+  "projectFilePath": "D:\\rbm\\Projetos\\projetosDS\\projetoFinanceira\\projetoFinanceira.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aluno\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
