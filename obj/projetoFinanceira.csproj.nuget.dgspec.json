@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\rbm\\Projetos\\projetosDS\\projetoFinanceira\\projetoFinanceira.csproj": {}
+    "E:\\DS_C#\\2111\\projetoFinanceira.csproj": {}
   },
   "projects": {
-    "D:\\rbm\\Projetos\\projetosDS\\projetoFinanceira\\projetoFinanceira.csproj": {
+    "E:\\DS_C#\\2111\\projetoFinanceira.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\rbm\\Projetos\\projetosDS\\projetoFinanceira\\projetoFinanceira.csproj",
+        "projectUniqueName": "E:\\DS_C#\\2111\\projetoFinanceira.csproj",
         "projectName": "projetoFinanceira",
-        "projectPath": "D:\\rbm\\Projetos\\projetosDS\\projetoFinanceira\\projetoFinanceira.csproj",
+        "projectPath": "E:\\DS_C#\\2111\\projetoFinanceira.csproj",
         "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "D:\\rbm\\Projetos\\projetosDS\\projetoFinanceira\\obj\\",
+        "outputPath": "E:\\DS_C#\\2111\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
