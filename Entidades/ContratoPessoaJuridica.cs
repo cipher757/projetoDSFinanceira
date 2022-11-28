@@ -1,22 +1,18 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 
 namespace projetoFinanceira.Entidades
 {
     class ContratoPessoaJuridica : Contrato
     {
-        public int CNPJ { get; set; }
+        public int Cnpj { get; set; }
         public int InscricaoEstadual { get; set; }
 
-        public ContratoPessoaJuridica()
-        {
+        public ContratoPessoaJuridica() { }
 
-        }
-
-        public ContratoPessoaJuridica(int numero, string contratante, double valor, int prazo, int cnpj, int inscricaoestadual) : base(numero, contratante, valor, prazo)
+        public ContratoPessoaJuridica(int numero, string contratante, double valor, int prazo, int cnpj, int inscricaoEstadual) : base(numero, contratante, valor, prazo)
         {
-            CNPJ = cnpj;
-            InscricaoEstadual = inscricaoestadual;
+            Cnpj = cnpj;
+            InscricaoEstadual = inscricaoEstadual;
         }
 
         public override double CalcularPrestacao()
