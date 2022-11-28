@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Globalization;
 
 namespace projetoFinanceira.Entidades
@@ -21,20 +19,19 @@ namespace projetoFinanceira.Entidades
             InscricaoEstadual = inscricaoestadual;
         }
 
-        public override double calcularPrestacao()
+        public override double CalcularPrestacao()
         {
             return Valor / Prazo + 3.00;
         }
 
-        public override string exibirInfo()
+        public override string ExibirInfo()
         {
             return "Valor do contrato: "
-                + Valor.ToString("F2", CultureInfo.InvariantCulture)
-                + "\r\n Prazo do contrato: "
-                + Prazo
-                + " meses\r\nValor da Prestação "
-                + calcularPrestacao().ToString("F2", CultureInfo.InvariantCulture);
+            + Valor.ToString("F2", CultureInfo.InvariantCulture)
+            + "\r\nPrazo do contrato: "
+            + Prazo
+            + " meses\r\nValor da prestação: "
+            + CalcularPrestacao().ToString("F2", CultureInfo.InvariantCulture);
         }
-
     }
 }

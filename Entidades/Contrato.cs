@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
 
 namespace projetoFinanceira.Entidades
@@ -21,19 +20,19 @@ namespace projetoFinanceira.Entidades
             Prazo = prazo;
         }
 
-        public virtual double calcularPrestacao()
+        public virtual double CalcularPrestacao()
         {
             return Valor / Prazo;
         }
 
-        public virtual string exibirInfo()
+        public virtual string ExibirInfo()
         {
             return "Valor do contrato: "
             + Valor.ToString("F2", CultureInfo.InvariantCulture)
             + "\r\nPrazo do contrato: "
             + Prazo
             + " meses\r\nValor da prestação: "
-            + calcularPrestacao().ToString("F2", CultureInfo.InvariantCulture);
+            + CalcularPrestacao().ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }

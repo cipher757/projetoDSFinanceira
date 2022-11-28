@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Globalization;
 
 namespace projetoFinanceira.Entidades
 {
@@ -12,15 +11,49 @@ namespace projetoFinanceira.Entidades
 
         public ContratoPessoaFisica() { }
 
-        public ContratoPessoaFisica(int numero, string contratante, double valor, int prazo, int cpf, DateTime dataNasc, DateTime dataAtual)
+        public ContratoPessoaFisica(int numero, string contratante, double valor, int prazo, int cpf, DateTime dataNasc, DateTime dataAtual) : base(numero, contratante, valor, prazo)
         {
-
+            Cpf = cpf;
+            DataNasc = dataNasc;
+            DataAtual = dataAtual;
         }
 
-        public override double calcularPrestacao()
+        public int CalcularIdade()
         {
-            
-            if ()
+            TimeSpan idade = DataAtual - DataNasc;
+            return (idade.Days) / 30 / 12;
+        }
+
+        public override double CalcularPrestacao()
+        {
+            if (CalcularIdade() <= 30)
+            {
+                return (Valor / Prazo) + 1.00;
+            }
+            else if (CalcularIdade() <= 40)
+            {
+                return (Valor / Prazo) + 2.00;
+            }
+            else if (CalcularIdade() <= 50)
+            {
+                return (Valor / Prazo) + 3.00;
+            }
+            else
+            {
+                return (Valor / Prazo) + 4.00;
+            }
+        }
+
+        public override string ExibirInfo()
+        {
+            return "Valor do contrato: "
+            + Valor.ToString("F2", CultureInfo.InvariantCulture)
+            + "\r\nPrazo do contrato: "
+            + Prazo
+            + " meses\r\nValor da prestação: "
+            + CalcularPrestacao().ToString("F2", CultureInfo.InvariantCulture)
+            + "\r\nIdade do contratante: "
+            + CalcularIdade();
         }
     }
 }
