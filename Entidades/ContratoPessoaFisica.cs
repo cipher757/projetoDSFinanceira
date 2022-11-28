@@ -30,11 +30,11 @@ namespace projetoFinanceira.Entidades
             {
                 return (Valor / Prazo) + 1.00;
             }
-            else if (CalcularIdade() <= 40)
+            else if (CalcularIdade() > 30 || CalcularIdade() <= 40)
             {
                 return (Valor / Prazo) + 2.00;
             }
-            else if (CalcularIdade() <= 50)
+            else if (CalcularIdade() > 40 || CalcularIdade() <= 50)
             {
                 return (Valor / Prazo) + 3.00;
             }
