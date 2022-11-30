@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9X0+Qq5Rvbaa+WL1I0SqGWioUoD2Dm4nUyufu6Vp+IBniADJC/swBa84pj/MZy/y6gxlTezTJFvb/KirTosYEg==",
+  "dgSpecHash": "dEYR58EELD+ZIUNQj88lrJHV7P68IjRvFlTKd82b6FxbcswXa0C2WNff+mmNCK01USeyxAbIqpKDVt85v/WfHg==",
   "success": true,
-  "projectFilePath": "D:\\rbm\\Projetos\\projetosDS\\projetoFinanceira\\projetoFinanceira.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "E:\\DS_C#\\2111\\projetoFinanceira\\projetoFinanceira.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

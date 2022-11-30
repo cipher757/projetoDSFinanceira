@@ -1,0 +1,14 @@
+E:\DS_C#\2111\projetoFinanceira\bin\Debug\netcoreapp3.1\projetoFinanceira.exe
+E:\DS_C#\2111\projetoFinanceira\bin\Debug\netcoreapp3.1\projetoFinanceira.deps.json
+E:\DS_C#\2111\projetoFinanceira\bin\Debug\netcoreapp3.1\projetoFinanceira.runtimeconfig.json
+E:\DS_C#\2111\projetoFinanceira\bin\Debug\netcoreapp3.1\projetoFinanceira.runtimeconfig.dev.json
+E:\DS_C#\2111\projetoFinanceira\bin\Debug\netcoreapp3.1\projetoFinanceira.dll
+E:\DS_C#\2111\projetoFinanceira\bin\Debug\netcoreapp3.1\projetoFinanceira.pdb
+E:\DS_C#\2111\projetoFinanceira\obj\Debug\netcoreapp3.1\projetoFinanceira.csproj.AssemblyReference.cache
+E:\DS_C#\2111\projetoFinanceira\obj\Debug\netcoreapp3.1\projetoFinanceira.GeneratedMSBuildEditorConfig.editorconfig
+E:\DS_C#\2111\projetoFinanceira\obj\Debug\netcoreapp3.1\projetoFinanceira.AssemblyInfoInputs.cache
+E:\DS_C#\2111\projetoFinanceira\obj\Debug\netcoreapp3.1\projetoFinanceira.AssemblyInfo.cs
+E:\DS_C#\2111\projetoFinanceira\obj\Debug\netcoreapp3.1\projetoFinanceira.csproj.CoreCompileInputs.cache
+E:\DS_C#\2111\projetoFinanceira\obj\Debug\netcoreapp3.1\projetoFinanceira.dll
+E:\DS_C#\2111\projetoFinanceira\obj\Debug\netcoreapp3.1\projetoFinanceira.pdb
+E:\DS_C#\2111\projetoFinanceira\obj\Debug\netcoreapp3.1\projetoFinanceira.genruntimeconfig.cache
